@@ -32,8 +32,8 @@ def USscrapin(tickers):
     driver.get(url)
 
     # Login
-    username = "Christopherlopez1013@gmail.com"
-    password = "Investor0323$"
+    username = "loginEmail"
+    password = "password"
     username_field = driver.find_element(By.ID, 'user_email')
     password_field = driver.find_element(By.ID, 'user_password')
     username_field.send_keys(username)
